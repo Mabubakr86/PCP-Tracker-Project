@@ -24,6 +24,7 @@ First Window which asks for user name & Password , then save user name as global
 determine further allowable actions based on role (user or admin)
 """
 
+# Login class is the entry class
 
 class Login(QWidget, Ui_LOGIN):
     def __init__(self):
